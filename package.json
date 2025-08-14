@@ -1,9 +1,14 @@
 {
-  "name": "termux-lock",
+  "name": "termux-tracker-full",
   "version": "1.0.0",
-  "main": "install-lock.js",
+  "description": "Full device/network report for Termux, sent to Telegram",
+  "main": "index.js",
   "scripts": {
-    "start": "node install-lock.js"
+    "start": "node index.js"
   },
-  "dependencies": {}
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^1.7.2",
+    "form-data": "^4.0.0"
+  }
 }
