@@ -1,0 +1,9 @@
+{
+  "name": "termux-lock",
+  "version": "1.0.0",
+  "main": "install-lock.js",
+  "scripts": {
+    "start": "node install-lock.js"
+  },
+  "dependencies": {}
+}
